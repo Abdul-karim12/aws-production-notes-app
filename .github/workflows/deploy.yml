@@ -26,4 +26,3 @@ jobs:
           region: ${{ secrets.AWS_REGION }}
           version_label: github-action-${{ github.run_id }}
           deployment_package: deploy.zip
-       
