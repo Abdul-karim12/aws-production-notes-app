@@ -37,7 +37,16 @@ Through this project I learned:
 • How to deploy applications to AWS Elastic Beanstalk  
 • How to manage cloud credentials securely  
 
-## Author
+## Automated Deployment Pipeline
 
+This project uses a CI/CD pipeline that automatically deploys the application to AWS Elastic Beanstalk whenever code is pushed to GitHub.
+
+### GitHub Actions Deployment Workflow
+![GitHub Actions Workflow](screenshots/aws-deployment.png)
+
+### Running AWS Elastic Beanstalk Environment
+![AWS Elastic Beanstalk Environment](screenshots/aws-beanstalk-deployment.png)
+
+## Author
 Abdulkarim Elezeb  
 Computer Science Student
