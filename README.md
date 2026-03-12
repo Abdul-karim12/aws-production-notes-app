@@ -1,48 +1,43 @@
-# AWS Production Notes App
+# AWS CI/CD Notes Application
 
-A containerized Flask web application built to simulate a production-ready deployment workflow.
+This project was developed as part of a college cloud computing project to demonstrate a real-world CI/CD deployment pipeline using AWS and GitHub Actions.
 
-## Tech Stack
+## Project Overview
 
-- Python 3.13
-- Flask
-- Docker
-- Git & GitHub
+The application is a simple Python notes app that is automatically deployed to AWS whenever new code is pushed to GitHub.
 
-## Features
+This demonstrates how modern production systems automate software deployment.
 
-- Simple note submission form
-- In-memory storage
-- Containerized using Docker
-- Runs on port 8000
+## Technologies Used
 
-## Run Locally (Without Docker)
+• Python (Flask)  
+• Docker  
+• AWS Elastic Beanstalk  
+• GitHub Actions  
+• CI/CD Pipeline  
+• GitHub Secrets for secure credentials  
 
-python app/app.py
+## CI/CD Pipeline
 
-## Run With Docker
+The deployment pipeline works as follows:
 
-Build image:
+1. Code is pushed to GitHub
+2. GitHub Actions automatically runs a workflow
+3. The workflow creates a deployment package
+4. AWS Elastic Beanstalk deploys the new version of the app
 
-docker build -t notes-app .
+This pipeline simulates how production systems automatically deploy applications.
 
-Run container:
+## Learning Outcomes
 
-docker run --rm -p 8000:8000 notes-app
+Through this project I learned:
 
-Then open:
+• How to build a CI/CD pipeline  
+• How GitHub Actions automates deployments  
+• How to deploy applications to AWS Elastic Beanstalk  
+• How to manage cloud credentials securely  
 
-http://127.0.0.1:8000
+## Author
 
-## Architecture
-
-Browser → Flask App → In-Memory Storage
-
-## Purpose
-
-This project demonstrates:
-
-- Containerization
-- Local development workflow
-- Git version control
-- Secure GitHub authentication using Personal Access Tokens
+Abdulkarim Elezeb  
+Computer Science Student
