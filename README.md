@@ -41,11 +41,11 @@ Through this project I learned:
 
 This project uses a CI/CD pipeline that automatically deploys the application to AWS Elastic Beanstalk whenever code is pushed to GitHub.
 
-### GitHub Actions Deployment Workflow
-![GitHub Actions Workflow](aws-deployment.png)
+### AWS Elastic Beanstalk Environment Running
+![AWS Environment](aws-deployment.png)
 
-### Running AWS Elastic Beanstalk Environment
-![AWS Elastic Beanstalk Environment](aws-beanstalk-deployment.png)
+### GitHub Actions Deployment Workflow
+![GitHub Actions Workflow](aws-beanstalk-deployment.png)
 
 ## Author
 Abdulkarim Elezeb  
